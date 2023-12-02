@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_O1CTMIL4Ee2rpIomT-Kdrg" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_yp7ykIL7Ee2rpIomT-Kdrg" comment="" name="ENV" prompt="ENV?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Par défaut"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zVZxcIL7Ee2rpIomT-Kdrg" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_zVZxcYL7Ee2rpIomT-Kdrg" comment="" name="ENV" prompt="ENV?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Développement"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zVZxcoL7Ee2rpIomT-Kdrg" confirmationNeeded="false" name="PREPROD">
+    <contextParameter xmi:id="_zVZxc4L7Ee2rpIomT-Kdrg" comment="" name="ENV" prompt="ENV?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Pré Production"/>
+  </talendfile:ContextType>
+</xmi:XMI>

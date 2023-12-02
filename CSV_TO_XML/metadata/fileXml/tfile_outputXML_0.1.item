@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_MCLWYYK-Ee2PVelXtbcxCg" name="tfile_outputXML" dataPackage="_MCLWaYK-Ee2PVelXtbcxCg" inputModel="false" outputFilePath="C:/Users/Abdelhak Pedro/Documents/Talend/Out/Output.xml">
+    <group xmi:id="_ayKG8oLAEe2PVelXtbcxCg" XMLPath="/rootTag/Flower" RelatedColumn="" Attribute="main" Order="1"/>
+    <group xmi:id="_ayKG84LAEe2PVelXtbcxCg" XMLPath="Id" RelatedColumn="Id" Attribute="attri" Order="2" Type="id_Integer"/>
+    <group xmi:id="_ayKG9ILAEe2PVelXtbcxCg" XMLPath="/rootTag/Flower/SepalLengthCm" RelatedColumn="SepalLengthCm" Attribute="branch" Order="3" Type="id_Float"/>
+    <group xmi:id="_ayKG9YLAEe2PVelXtbcxCg" XMLPath="/rootTag/Flower/SepalWidthCm" RelatedColumn="SepalWidthCm" Attribute="branch" Order="4" Type="id_Float"/>
+    <group xmi:id="_ayKG9oLAEe2PVelXtbcxCg" XMLPath="/rootTag/Flower/PetalLengthCm" RelatedColumn="PetalLengthCm" Attribute="branch" Order="5" Type="id_Float"/>
+    <group xmi:id="_ayKG94LAEe2PVelXtbcxCg" XMLPath="/rootTag/Flower/PetalWidthCm" RelatedColumn="PetalWidthCm" Attribute="branch" Order="6" Type="id_Float"/>
+    <root xmi:id="_ayKG8ILAEe2PVelXtbcxCg" XMLPath="/rootTag" RelatedColumn="" Attribute="main" Order="1"/>
+    <loop xmi:id="_ayKG8YLAEe2PVelXtbcxCg" XMLPath="/rootTag/Flower/Species" RelatedColumn="Species" Attribute="main" Order="7" Type="id_String"/>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_MCLWaYK-Ee2PVelXtbcxCg" name="default" dataManager="_MCLWYYK-Ee2PVelXtbcxCg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_MCLWaoK-Ee2PVelXtbcxCg" id="_PVxDgIK9Ee2PVelXtbcxCg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCLWbIK-Ee2PVelXtbcxCg" name="Id" label="Id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_MCUgUIK-Ee2PVelXtbcxCg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCUgUYK-Ee2PVelXtbcxCg" name="SepalLengthCm" label="SepalLengthCm" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_MCUgUoK-Ee2PVelXtbcxCg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCUgU4K-Ee2PVelXtbcxCg" name="SepalWidthCm" label="SepalWidthCm" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_MCUgVIK-Ee2PVelXtbcxCg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCUgVYK-Ee2PVelXtbcxCg" name="PetalLengthCm" label="PetalLengthCm" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_MCUgVoK-Ee2PVelXtbcxCg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCUgV4K-Ee2PVelXtbcxCg" name="PetalWidthCm" label="PetalWidthCm" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_MCUgWIK-Ee2PVelXtbcxCg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCUgWYK-Ee2PVelXtbcxCg" name="Species" label="Species" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_MCUgWoK-Ee2PVelXtbcxCg"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
