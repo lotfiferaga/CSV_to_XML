@@ -3,13 +3,6 @@
 This section describes the overall goals and objectives of the Talend project for migrating CSV files to XML. It may include information about the purpose of the migration, the data it aims to transform, and the intended outcomes.
 
 ---
-
-# Dataset
-
-This section provides details about the dataset used for the CSV to XML migration project. It may include information about the structure and content of the CSV files being migrated.
-
----
-
 ## Data Structure
 
 This part of the code provides information about the structure of the data for the CSV to XML migration. It includes loading the CSV dataset and organizing it. This may involve details about data preprocessing steps required for the migration.
@@ -38,13 +31,6 @@ Once the Talend job is built, this section involves executing the job and testin
 
 The code or process involved in preparing the CSV data for migration to XML format is described in this section. It may include any necessary data cleaning or transformation steps.
 
----
-
-# Migration Process Execution
-
-Describes the execution of the migration process, including any intermediate steps and considerations during the CSV to XML conversion.
-
----
 
 # Saving the Talend Job
 
